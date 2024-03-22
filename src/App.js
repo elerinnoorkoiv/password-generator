@@ -90,7 +90,7 @@ const App = () => {
       <div className="container">
         <div className="generator">
           <h2 className="generator__header">
-           Password Generator
+           Salasõna looja
           </h2>
           <div className="generator__password">
             <h3 >{password}</h3>
@@ -99,27 +99,27 @@ const App = () => {
             </button>
           </div>
           <div className="form-group">
-            <label htmlFor="password-strength">Password length</label>
+            <label htmlFor="password-strength">Salasõna pikkus:</label>
             <input className="pw" defaultValue={passwordLength} onChange={(e) => setPasswordLength(e.target.value)} type="number" id="password-stregth" name="password-strength" max="26" min="8" />
           </div>
           <div className="form-group">
-            <label htmlFor="uppercase-letters">Add Uppercase Letters</label>
+            <label htmlFor="uppercase-letters">Lisa suuri tähti:</label>
             <input checked={includeUpperCase} onChange={(e) => setIncludeUpperCase(e.target.checked)} type="checkbox" id="uppercase-letters" name="uppercase-letters" />
           </div>
           <div className="form-group">
-            <label htmlFor="lowercase-letters">Add Lowercase Letters</label>
+            <label htmlFor="lowercase-letters">Lisa väiketähti:</label>
             <input checked={includeLowerCase} onChange={(e) => setIncludeLowerCase(e.target.checked)} type="checkbox" id="lowercase-letters" name="lowercase-letters" />
           </div>
           <div className="form-group">
-            <label htmlFor="include-numbers">Include Numbers</label>
+            <label htmlFor="include-numbers">Lisa numbreid:</label>
             <input checked={includeNumbers} onChange={(e) => setIncludeNumbers(e.target.checked)} type="checkbox" id="include-numbers" name="include-numbers" />
           </div>
           <div className="form-group">
-            <label htmlFor="include-symbols">Include Symbols</label>
+            <label htmlFor="include-symbols">Lisa sümboleid:</label>
             <input checked={includeSymbols} onChange={(e) => setIncludeSymbols(e.target.checked)} type="checkbox" id="include-symbols" name="include-symbols" />
           </div>
           <button onClick={handleGeneratePassword} className="generator__btn">
-            Generate Password
+            Loo salasõna!
           </button>
           <ToastContainer
             position="top-center"
