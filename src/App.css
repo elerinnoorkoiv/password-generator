@@ -43,10 +43,19 @@
   border-radius: 30px;
   font-size: 17px;
   cursor: pointer;
-
+}
+.form-group label{
+  font-size: 14px;
+}
+.form-group input{
+  padding: 3px;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #313131;
 }
 .form-group{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 15px;
 }
