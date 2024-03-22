@@ -6,10 +6,10 @@
 }
 
 .generator{
-  background-image: linear-gradient(-225deg, #7072ff 0%, #c39dff 100%);
+  background-image: linear-gradient(-225deg, #090b31 0%, #090b31 100%);
   border-radius: 10px;
-  box-shadow: 0px 2px 10px rgba(245, 244, 244, 0.863);
-  padding: 60px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.863);
+  padding: 40px;
 }
 .generator__header{
   text-align: center;
@@ -17,35 +17,37 @@
   margin-bottom: 35px;
 }
 .generator__password{
-  background-color:#ffffff;
-  border-radius: 30px;
+  background-color:#24274e;
+  border-radius: 8px;
   padding: 13px 10px;
-  color: #313131;
+  color: #ffffff;
   margin-bottom: 25px;
   height: 46px;
   display: flex;
   justify-content: space-between;
 }
 .copy__btn{
-  color: #313131;
-  background: #ffffff;
+  color: #ffffff;
+  background: #24274e;
   border: none;
   cursor: pointer;
   padding-left: 10px;
 }
 .generator__btn{
-  background: #313131;
   border: none;
   width: 100%;
   margin-top: 10px;
   padding: 15px;
   color: #fff;
-  border-radius: 30px;
+  border-radius: 10px;
   font-size: 17px;
   cursor: pointer;
+  background-image: linear-gradient(-225deg, #c890fc 0%, #8288fd 100%);
 }
 .form-group label{
   font-size: 14px;
+  color: #fff;
+  padding-right: 70px;
 }
 .form-group input{
   padding: 3px;
@@ -57,5 +59,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
+  background-color: #24274e;
+  padding: 15px;
+  border-radius: 8px;
 }
