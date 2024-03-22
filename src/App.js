@@ -15,7 +15,7 @@ const App = () => {
 
   const handleGeneratePassword = () => {
     if (!includeUpperCase && !includeLowerCase && !includeNumbers && !includeSymbols) {
-      notify("To generate password you must select atleast one checkbox", true);
+      notify("Salasõna loomiseks, täida vähemalt üks salasõna tingimuste väli", true);
     } else {
       let characterList = "";
       if (includeNumbers) {
@@ -31,7 +31,7 @@ const App = () => {
         characterList += specialCharacters;
       }
       setPassword(createPassword(characterList));
-      notify("Password is generated successfully", false);
+      notify("Salasõna on loodud!", false);
     }
   };
 

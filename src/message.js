@@ -1,2 +1,2 @@
-export const COPY_SUCCESS = "Password successfully copied to clipboard"
-export const COPY_Fail = "Password successfully copied to clipboard"
+export const COPY_SUCCESS = "Salasõna on kopeeritud!"
+export const COPY_Fail = "Salasõna loomiseks vajuta nuppu 'Loo salasõna!'"
