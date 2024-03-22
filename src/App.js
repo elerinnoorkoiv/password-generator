@@ -109,7 +109,7 @@ const App = () => {
               id="password-strength"
               name="password-strength"
               max="26"
-              min="8"
+              min="10"
             />
           </div>
           <div className="form-group">
